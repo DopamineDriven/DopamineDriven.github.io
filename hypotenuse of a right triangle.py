@@ -1,0 +1,7 @@
+print("Solving for the hypotenuse, c, of a right triangle.")
+a=input("input length of a:")
+b=input("input length of b:")
+a=float(a)
+b=float(b)
+c=((a**2+b**2)**0.5)
+print(c)

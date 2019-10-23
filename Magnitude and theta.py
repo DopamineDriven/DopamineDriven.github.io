@@ -1,0 +1,13 @@
+import math
+print("Solving for magnitude and angle theta of vector components x and y.")
+x=input("input force component x:")
+y=input("input force component y:")
+x=float(x)
+y=float(y)
+z=math.atan(y/x)
+theta=math.degrees(z)
+w=((x**2+y**2)**0.5)
+print(w)
+print("Newtons")
+print(theta)
+print("Degrees")
